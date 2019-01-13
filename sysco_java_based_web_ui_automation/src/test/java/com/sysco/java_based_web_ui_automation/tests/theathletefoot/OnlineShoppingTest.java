@@ -86,7 +86,9 @@ public class OnlineShoppingTest extends TestBase {
     }
 
     @Test(priority = 7)
-    public void testCheckout(){
+    public void testCheckout() throws InterruptedException {
         OnlineShoppingCart.goToCheckOutPage();
+        OnlineShoppingCheckout.continueWithoutRequiredFields();
+        OnlineShoppingCheckout.continueCheckout();
     }
 }
