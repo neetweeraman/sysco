@@ -16,7 +16,7 @@ public class OnlineShoppingCheckoutPage extends PageBase {
     private By lblRequiredField = By.xpath("//div[@class=\"field-error mage-error\"]");
     private By btnContinue = By.xpath("//div[@class=\"opc-submit-step\"]/button[@class=\"button -primary -expanded\"]");
     private By autoCompletePostCodes = By.xpath("//li[@class=\"item ui-menu-item\"]");
-    private By radioBtnPaymentMethod = By.id("braintree_paypal");
+    private By radioBtnPaymentMethod = By.xpath("//strong[text()=\"Credit Card\"]");
 
     public String getFirstName(){
         syscoLabUI.waitTillElementLoaded(txtFirstName);
