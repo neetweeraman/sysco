@@ -28,21 +28,22 @@ public class OnlineShoppingCheckout {
         else{ return false; }
     };
 
-    public static void continueCheckout() throws InterruptedException {
+    public static void continueCheckout(LoginData loginData) throws InterruptedException {
         onlineShoppingCheckoutPage.enterValuesToCompanyTextBox();
         onlineShoppingCheckoutPage.enterValuesToAddressLine1();
 
-        /*onlineShoppingCheckoutPage.enterValuesToPostCodeTextBox();
+        onlineShoppingCheckoutPage.enterValuesToPostCodeTextBox(loginData.getPostCode());
+        onlineShoppingCheckoutPage.getSuggestedPostalCodes();
         Thread.sleep(3000);
         Random random = new Random();
         webElementListOfPostCodes = onlineShoppingCheckoutPage.getSuggestedPostalCodes().get(random.nextInt(onlineShoppingCheckoutPage.getSuggestedPostalCodes().size()));
         Thread.sleep(3000);
         webElementListOfPostCodes.click();
-        Thread.sleep(3000);*/
+        Thread.sleep(3000);
 
-        /*onlineShoppingCheckoutPage.fillPhoneNumberTextBox();
+        onlineShoppingCheckoutPage.fillPhoneNumberTextBox();
         onlineShoppingCheckoutPage.checkAuthorityToLeaveCheckbox();
         onlineShoppingCheckoutPage.clickContinueButton();
-        onlineShoppingCheckoutPage.clickPaymentMethodRadioButton();*/
+        onlineShoppingCheckoutPage.clickPaymentMethodRadioButton();
     }
 }

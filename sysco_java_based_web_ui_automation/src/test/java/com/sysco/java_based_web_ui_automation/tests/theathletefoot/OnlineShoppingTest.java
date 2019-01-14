@@ -94,6 +94,6 @@ public class OnlineShoppingTest extends TestBase {
         softAssert.assertTrue(OnlineShoppingCheckout.continueWithoutRequiredFields(), "Continue Checkout without required fields");
 
         softAssert.assertAll();
-        OnlineShoppingCheckout.continueCheckout();
+        OnlineShoppingCheckout.continueCheckout(loginData);
     }
 }

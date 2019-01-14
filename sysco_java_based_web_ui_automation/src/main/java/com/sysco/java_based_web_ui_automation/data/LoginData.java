@@ -7,6 +7,8 @@ public class LoginData {
     public String password;
     public String firstName;
     public String lastName;
+    public String postCode;
+    public String phoneNumber;
 
     public String getRef() {
         return Ref;
@@ -35,4 +37,12 @@ public class LoginData {
     public String getLastName() { return lastName; }
 
     public void setLastName(String lastName) { this.lastName = lastName; }
+
+    public String getPostCode() { return postCode; }
+
+    public void setPostCode(String postCode) { this.postCode = postCode; }
+
+    public String getPhoneNumber() { return phoneNumber; }
+
+    public void setPhoneNumber(String postCode) { this.phoneNumber = phoneNumber; }
 }

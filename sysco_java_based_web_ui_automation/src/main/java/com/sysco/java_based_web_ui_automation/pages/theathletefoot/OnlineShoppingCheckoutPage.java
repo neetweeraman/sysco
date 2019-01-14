@@ -7,6 +7,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
+import java.util.Random;
 
 public class OnlineShoppingCheckoutPage extends PageBase {
     private By txtFirstName = By.xpath("//div[@name=\"shippingAddress.firstname\"]/div[1]/input[1]");
@@ -22,7 +23,7 @@ public class OnlineShoppingCheckoutPage extends PageBase {
     private By txtPhoneNumber = By.xpath("//div[@class=\"field _required -active\"]/div/input[@name=\"telephone\"]");
     private By lblRequiredField = By.xpath("//div[@class=\"field-error mage-error\"]");
     private By btnContinue = By.xpath("//div[@class=\"opc-submit-step\"]/button[@class=\"button -primary -expanded\"]");
-    private By autoCompletePostCodes = By.xpath("//ul[@id=\"ui-id-1\"]/li/a[@class=\"link ui-corner-all\"]");
+    private By autoCompletePostCodes = By.xpath("//ul[@class=\"ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all\"]");
     private By chkAuthorityToLeave = By.xpath("//div[@name=\"shippingAddress.authority_to_leave\"]/div/div/input[@type=\"checkbox\"]");
     private By radioBtnPaymentMethod = By.id("braintree_paypal");
 
@@ -44,9 +45,12 @@ public class OnlineShoppingCheckoutPage extends PageBase {
 
     public void enterValuesToAddressLine1(){ syscoLabUI.sendKeys(txtAddressLine1, "assignment address line 1"); }
 
-    public void enterValuesToPostCodeTextBox(){ syscoLabUI.sendKeys(txtPostCode, "2000"); }
+    public void enterValuesToPostCodeTextBox(String postCode){
+        syscoLabUI.sendKeys(txtPostCode, postCode); }
 
-    public List<WebElement> getSuggestedPostalCodes(){ return syscoLabUI.findElements(autoCompletePostCodes); }
+    public List<WebElement> getSuggestedPostalCodes(){
+        return syscoLabUI.findElements(autoCompletePostCodes);
+    }
 
     public void fillPhoneNumberTextBox() throws InterruptedException {
         syscoLabUI.scrollToElement(txtPhoneNumber);
