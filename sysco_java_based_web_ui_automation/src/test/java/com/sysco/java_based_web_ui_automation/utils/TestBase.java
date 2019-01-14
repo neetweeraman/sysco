@@ -27,10 +27,10 @@ public class TestBase {
         System.out.println("Test Running " + this.getClass().toString());
     }
 
-    /*@AfterTest
+    @AfterTest
     public void afterTest(){
         PageBase.quitBrowser();
-    }*/
+    }
 
     @AfterClass(alwaysRun = true)
     public void cleanUp(ITestContext iTestContext) {
