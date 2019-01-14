@@ -16,9 +16,8 @@ public class OnlineShoppingTest extends TestBase {
 
 
     @BeforeClass
-    public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "checkout");
-    }
+    public void init(ITestContext iTestContext) { iTestContext.setAttribute("feature", "Online Shopping - Checkout"); }
+
 
     @Test(priority=1)
     public void testOnlineShoppingInitialPageVerify(){
@@ -79,16 +78,22 @@ public class OnlineShoppingTest extends TestBase {
         String selectedItemPrice = OnlineShoppingItem.getSelectedItemPrice();
         OnlineShoppingItem.goToCartPage();
 
-        softAssert.assertTrue(OnlineShoppingCart.verifyCartItemName(selectedItemName));
-        softAssert.assertTrue(OnlineShoppingCart.verifyCartItemPrice(selectedItemPrice));
+        softAssert.assertTrue(OnlineShoppingCart.verifyCartItemName(selectedItemName), "Cart Item Name");
+        softAssert.assertTrue(OnlineShoppingCart.verifyCartItemPrice(selectedItemPrice), "Cart Item Price");
 
         softAssert.assertAll();
     }
 
     @Test(priority = 7)
     public void testCheckout() throws InterruptedException {
+        SoftAssert softAssert = new SoftAssert();
+        loginData = ExcelUtil.getLoginData("login_6");
         OnlineShoppingCart.goToCheckOutPage();
-        OnlineShoppingCheckout.continueWithoutRequiredFields();
+        softAssert.assertTrue(OnlineShoppingCheckout.verifyFirstName(loginData), "Checkout First Name");
+        softAssert.assertTrue(OnlineShoppingCheckout.verifyLastName(loginData), "Checkout Last Name");
+        softAssert.assertTrue(OnlineShoppingCheckout.continueWithoutRequiredFields(), "Continue Checkout without required fields");
+
+        softAssert.assertAll();
         OnlineShoppingCheckout.continueCheckout();
     }
 }

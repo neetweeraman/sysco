@@ -9,9 +9,15 @@ public class OnlineShoppingCartPage extends PageBase {
 //    private By btnProceedToCheckOut = By.xpath("//button[@title=\"Proceed To Checkout\"]");
     private  By btnProceedToCheckOut = By.xpath("//button[@class=\"action button -primary primary -expanded checkout\"]/span");
 
-    public String getCartItemNameLabelText() { return syscoLabUI.getText(lblCartItemName); }
+    public String getCartItemNameLabelText() {
+        syscoLabUI.waitTillElementLoaded(lblCartItemName);
+        return syscoLabUI.getText(lblCartItemName);
+    }
 
-    public String getCartItemPriceLabelText() { return syscoLabUI.getText(lblCartItemPrice); }
+    public String getCartItemPriceLabelText() {
+        syscoLabUI.waitTillElementLoaded(lblCartItemPrice);
+        return syscoLabUI.getText(lblCartItemPrice);
+    }
 
     public void clickProceedToCheckoutButton(){ syscoLabUI.clickWithJavascript(btnProceedToCheckOut); }
 }

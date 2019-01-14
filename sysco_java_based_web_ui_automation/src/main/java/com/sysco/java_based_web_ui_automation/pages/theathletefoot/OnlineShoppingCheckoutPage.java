@@ -25,8 +25,16 @@ public class OnlineShoppingCheckoutPage extends PageBase {
     private By autoCompletePostCodes = By.xpath("//ul[@id=\"ui-id-1\"]/li/a[@class=\"link ui-corner-all\"]");
     private By chkAuthorityToLeave = By.xpath("//div[@name=\"shippingAddress.authority_to_leave\"]/div/div/input[@type=\"checkbox\"]");
     private By radioBtnPaymentMethod = By.id("braintree_paypal");
-    private WebElement wefn = syscoLabUI.driver.findElement(By.xpath("//div[@name=\"shippingAddress.firstname\"]/div[1]/input[1]"));
 
+    public String getFirstName(){
+        syscoLabUI.waitTillElementLoaded(txtFirstName);
+        return syscoLabUI.getValue(txtFirstName).trim();
+    }
+
+    public String getLastName(){
+        syscoLabUI.waitTillElementLoaded(txtLastName);
+        return  syscoLabUI.getValue(txtLastName);
+    }
 
     public boolean requiredFieldDisplayed(){ return syscoLabUI.isDisplayed(lblRequiredField); };
 

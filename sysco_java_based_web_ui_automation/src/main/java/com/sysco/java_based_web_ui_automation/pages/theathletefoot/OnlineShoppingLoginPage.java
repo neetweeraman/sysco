@@ -23,10 +23,19 @@ public class OnlineShoppingLoginPage extends PageBase {
 
     public void clickLogin(){ syscoLabUI.click(btnLogin);}
 
-    public String getEmailIsRequiredMsg(){ return syscoLabUI.getText(emailErrorMsg);}
+    public String getEmailIsRequiredMsg(){
+        syscoLabUI.waitTillElementLoaded(emailErrorMsg);
+        return syscoLabUI.getText(emailErrorMsg);
+    }
 
-    public String getPasswordIsRequiredMsg(){ return syscoLabUI.getText(passwordErrorMsg); }
+    public String getPasswordIsRequiredMsg(){
+        syscoLabUI.waitTillElementLoaded(passwordErrorMsg);
+        return syscoLabUI.getText(passwordErrorMsg);
+    }
 
-    public String getIncorrectEmailOrPasswordMsg(){ return  syscoLabUI.getText(incorrectEmailOrPasswordMsg); }
+    public String getIncorrectEmailOrPasswordMsg(){
+        syscoLabUI.waitTillElementLoaded(incorrectEmailOrPasswordMsg);
+        return  syscoLabUI.getText(incorrectEmailOrPasswordMsg);
+    }
 
 }
