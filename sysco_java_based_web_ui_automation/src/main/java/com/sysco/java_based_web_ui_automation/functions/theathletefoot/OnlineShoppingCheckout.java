@@ -33,16 +33,12 @@ public class OnlineShoppingCheckout {
         onlineShoppingCheckoutPage.enterValuesToAddressLine1();
 
         onlineShoppingCheckoutPage.enterValuesToPostCodeTextBox(loginData.getPostCode());
-        onlineShoppingCheckoutPage.getSuggestedPostalCodes();
-        Thread.sleep(3000);
-        Random random = new Random();
-        webElementListOfPostCodes = onlineShoppingCheckoutPage.getSuggestedPostalCodes().get(random.nextInt(onlineShoppingCheckoutPage.getSuggestedPostalCodes().size()));
-        Thread.sleep(3000);
-        webElementListOfPostCodes.click();
         Thread.sleep(3000);
 
-        onlineShoppingCheckoutPage.fillPhoneNumberTextBox();
-        onlineShoppingCheckoutPage.checkAuthorityToLeaveCheckbox();
+        onlineShoppingCheckoutPage.selectPostCode();
+        Thread.sleep(3000);
+
+        onlineShoppingCheckoutPage.fillPhoneNumberTextBox(loginData.getPhoneNumber());
         onlineShoppingCheckoutPage.clickContinueButton();
         onlineShoppingCheckoutPage.clickPaymentMethodRadioButton();
     }

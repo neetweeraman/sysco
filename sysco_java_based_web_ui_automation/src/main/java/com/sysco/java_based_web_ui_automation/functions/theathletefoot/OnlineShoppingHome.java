@@ -49,7 +49,6 @@ public class OnlineShoppingHome {
             onlineShoppingHomePage.clickCloseCartIcon();
         }
         else{
-            System.out.println("There are no items in the shopping cart to remove.");
             isEmpty = true;
         }
         return isEmpty;

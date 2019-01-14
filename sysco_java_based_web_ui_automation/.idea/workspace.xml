@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/data/LoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/data/LoginData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/Login.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/LoginPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java" afterDir="false" />
@@ -15,14 +16,18 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/testData/TestData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testData/TestData.xls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/LoginTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/utils/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/utils/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkout.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/common/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/common/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/data/LoginData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/data/LoginData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/functions/Login.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/LoginPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCartPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingLoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/testData/TestData.xls" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testData/TestData.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sysco/java_based_web_ui_automation/tests/LoginTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,24 +41,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+            <state relative-caret-position="377">
+              <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2945#2946#0" expanded="true" />
-                <element signature="e#3014#3015#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="-328">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,14 +65,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="347">
+              <caret line="40" column="86" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3012#3013#0" expanded="true" />
-                <element signature="e#3096#3097#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,17 +102,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingItemsResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingItemsResultPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingHome.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/utils/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCartPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingItemPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/common/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/data/LoginData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/utils/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingHome.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java" />
       </list>
     </option>
   </component>
@@ -127,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,15 +192,6 @@
               <item name="sysco_java_based_web_ui_automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="sysco_java_based_web_ui_automation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java_based_web_ui_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="theathletefoot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sysco_java_based_web_ui_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sysco_java_based_web_ui_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,15 +217,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java_based_web_ui_automation" type="462c0819:PsiDirectoryNode" />
               <item name="theathletefoot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sysco_java_based_web_ui_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sysco_java_based_web_ui_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java_based_web_ui_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547453057191" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547465957238" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -383,41 +384,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 11h 52m 35s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 15h 05m 34s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 11h 58m 34s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 15h 28m 40s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 12h 22m 24s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 15h 35m 40s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 12h 36m 33s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 15h 51m 01s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 12h 43m 35s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 15h 52m 04s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 12h 47m 27s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 15h 53m 29s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 12h 55m 47s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 16h 00m 24s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 13h 05m 13s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 16h 24m 21s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 13h 21m 19s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 16h 52m 21s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="OnlineShoppingTest - 2019.01.14 at 13h 28m 10s.xml">
+    <history-entry file="OnlineShoppingTest - 2019.01.14 at 17h 07m 14s.xml">
       <configuration name="OnlineShoppingTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2733813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -426,7 +428,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963374" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37069923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37069923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,13 +465,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/LoginTest.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -585,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/com/syscolab/qe/core/ui/SyscoLabUI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
-          <caret line="462" column="40" lean-forward="true" selection-start-line="462" selection-start-column="40" selection-end-line="462" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.4.0/selenium-api-3.4.0.jar!/org/openqa/selenium/JavascriptExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -603,18 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-46">
           <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/utils/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/common/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="122" selection-start-line="4" selection-start-column="122" selection-end-line="4" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingItemsResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -692,23 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingLoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/LoginPage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -733,10 +687,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="96" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/utils/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/com/syscolab/qe/core/ui/SyscoLabUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingLoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-268">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="315">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -746,31 +734,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/java_based_web_ui_automation/tests/theathletefoot/OnlineShoppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3012#3013#0" expanded="true" />
-            <element signature="e#3096#3097#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2945#2946#0" expanded="true" />
-            <element signature="e#3014#3015#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/functions/theathletefoot/OnlineShoppingCheckout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        <state relative-caret-position="347">
+          <caret line="40" column="86" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/java_based_web_ui_automation/pages/theathletefoot/OnlineShoppingCheckoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
